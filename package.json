@@ -1,0 +1,32 @@
+{
+  "name": "richardbentil",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "description": "This is my portfolio website which showcases my previous work experience and the projects I have built",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardbentil/richardbentil.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "Richard Bentil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardbentil/richardbentil.github.io/issues"
+  },
+  "homepage": "https://github.com/richardbentil/richardbentil.github.io#readme"
+}
