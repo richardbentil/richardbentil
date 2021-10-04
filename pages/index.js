@@ -18,6 +18,11 @@ export default function Home() {
           rel="stylesheet"
           integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
           crossOrigin="anonymous"></link>
+        <script
+          src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
       </Head>
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <div class="container">
@@ -25,7 +30,7 @@ export default function Home() {
             Richard Bentil
           </a>
           <button
-            class="navbar-toggler d-lg-none"
+            class="navbar-toggler d-lg-none border-0"
             type="button"
             data-toggle="collapse"
             data-target="#collapsibleNavId"
@@ -93,7 +98,7 @@ export default function Home() {
           <div className="container">
             <h2 className="col-md-8">Experience</h2>
             <div className="row my-3">
-              <div className="col-md-6 pe-md-5">
+              <div className="col-md-6 mb-3 pe-md-5">
                 <div className="d-flex justify-content-between">
                   <h4>UX Engineer</h4>
                   <p>Mar 2021 - June 21</p>
@@ -123,8 +128,8 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6 ps-md-5">
-                <div className="mb-md-5">
+              <div className="col-md-6 mb-3 ps-md-5">
+                <div className="mb-4 mb-md-5">
                   <h6>HTML</h6>
                   <div class="progress">
                     <div
@@ -138,7 +143,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="mb-md-5">
+                <div className="mb-4 mb-md-5">
                   <h6>CSS</h6>
                   <div class="progress">
                     <div
@@ -153,7 +158,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="mb-md-5">
+                <div className="mb-4 mb-md-5">
                   <h6>Javascript</h6>
                   <div class="progress">
                     <div
@@ -167,7 +172,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="mb-md-5">
+                <div className="mb-4 mb-md-5">
                   <h6>NODEJS</h6>
                   <div class="progress">
                     <div
@@ -182,7 +187,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="mb-md-5">
+                <div className="mb-4 mb-md-5">
                   <h6>React</h6>
                   <div class="progress">
                     <div
@@ -200,14 +205,16 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-5 bg-light" id="projects">
+        <section className="py-5 bg-warning bg-opacity-25" id="projects">
           <div className="container">
             <h2 className="col-md-10 mx-auto">Projects</h2>
             <div className="my-3 col-md-10 mx-auto">
               <h4>MyGHQr</h4>
               <p>
                 <Link href="https://myghqr.com">
-                  <a className="text-primary">View project</a>
+                  <a className="">
+                    <u>View project</u>
+                  </a>
                 </Link>
               </p>
               <p>
@@ -221,7 +228,9 @@ export default function Home() {
               <h4>DMB2024</h4>
               <p>
                 <Link href="https://dmb2024.com">
-                  <a className="text-primary">View project</a>
+                  <a className="">
+                    <u>View project</u>
+                  </a>
                 </Link>
               </p>
               <p>
@@ -235,10 +244,14 @@ export default function Home() {
               <h4>Hospital Consultation App</h4>
               <p className="d-flex justify-content-start">
                 <Link href="https://consultationapp.vercel.app/">
-                  <a className="text-primary">View project</a>
+                  <a className="">
+                    <u>View project</u>
+                  </a>
                 </Link>
                 <Link href="https://github.com/richardbentil/consultationapp">
-                  <a className="text-primary ms-3">Github</a>
+                  <a className="ms-3">
+                    <u>Github</u>
+                  </a>
                 </Link>
               </p>
               <p>
@@ -250,11 +263,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-5" id="contact">
+        <section className="pt-5 pb-0 mb-3" id="contact">
           <div className="container">
             <h2 className="">Contact</h2>
             <div className="row">
-              <div className="col-md-8">
+              <div className="col-md-8 mb-4">
                 <div className="row">
                   <div class="form-group col-md-6 mb-4">
                     <input
@@ -286,13 +299,13 @@ export default function Home() {
                       placeholder="Subject"
                     />
                   </div>
-                  <div class="form-group mb-3">
+                  <div class="form-group mb-4">
                     <textarea class="form-control" name="" id="" rows="5">
                       Message
                     </textarea>
                   </div>
-                  <div class="form-group">
-                    <button type="submit" class="btn btn-primary">
+                  <div class="form-group text-end text-md-start mb-5">
+                    <button type="submit" class="btn btn-dark px-5">
                       Submit
                     </button>
                   </div>
@@ -319,13 +332,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            </div>
+          </div>
         </section>
       </main>
       <footer>
         <section className="py-5 text-center bg-dark text-white" id="message">
           <h4>Want an outstanding project?</h4>
-          <p>Just send me a message</p>
+          <a href="#contact">Just send me a message</a>
         </section>
       </footer>
     </>
