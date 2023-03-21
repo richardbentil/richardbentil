@@ -6,12 +6,15 @@ Front end software engineer
 
 I'm a front end software engineer who loves working with great teams and building front end features
 
-*   🌍  I'm based in Accra, Ghana
-*   🖥️  See my portfolio at [My portfolio](http://richardbentil-github-io.vercel.app)
-*   ✉️  You can contact me at [richardebo.bentil@gmail.com](mailto:richardebo.bentil@gmail.com)
-*   🧠  I'm learning Security configuration for nextjs
-*   🤝  I'm open to collaborating on React, Typescript freelance, contract projects
-*   ⚡  I like improving myself by learning new technologies every now and then### Skills 
+* 🌍  I'm based in Accra, Ghana
+* 🖥️  See my portfolio at [My portfolio](http://richardbentil-github-io.vercel.app)
+* ✉️  You can contact me at [richardebo.bentil@gmail.com](mailto:richardebo.bentil@gmail.com)
+* 🧠  I'm learning Security configuration for nextjs
+* 🤝  I'm open to collaborating on React, Typescript freelance, contract projects
+* ⚡  I like improving myself by learning new technologies every now and then
+
+### Skills
+
 <p align="left">
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
@@ -28,14 +31,7 @@ I'm a front end software engineer who loves working with great teams and buildin
 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
 </p>
-                    
-                  ### Socials
-                  
-                  
-                <p align="left">
-                          
-                      <a href="https://www.github.com/richardbentil" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>
-                          
-                      <a href="https://www.linkedin.com/in/richard-bentil/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a>
-                          
-                      <a href="https://www.twitter.com/Benrichebo" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a></p>
+
+### Socials
+
+<p align="left"> <a href="https://www.github.com/richardbentil" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/richard-bentil/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/Benrichebo" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a></p>
