@@ -1,11 +1,11 @@
 import Head from "next/head";
 
-export default function Home() {
+export default function Projects() {
   return (
     <>
       <Head>
-        <title>Richard Bentil</title>
-        <meta name="description" content="Richard Bentil Oline portfolio" />
+        <title>Projects</title>
+        <meta name="description" content="Find all my projects here" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
