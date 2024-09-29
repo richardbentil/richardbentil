@@ -63,6 +63,16 @@ export default function Home() {
           <div className="container">
             <h2 className="text-center mb-5">Featured Projects</h2>
             <div className="row g-4">
+            <div className="col-md-4">
+                <div className="card h-100 shadow-sm">
+                  <img src="/img/nature/orbit.png" className="card-img-top" alt="orbit" />
+                  <div className="card-body">
+                    <h5 className="card-title">Orbit international logistics</h5>
+                    <p className="card-text">An Inventory mamangement and shipping system.</p>
+                    <a href="https://orbitintlogistics.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">View Project</a>
+                  </div>
+                </div>
+              </div>
               <div className="col-md-4">
                 <div className="card h-100 shadow-sm">
                   <img src="/img/nature/digo.png" className="card-img-top" alt="Digopay" />
@@ -90,6 +100,16 @@ export default function Home() {
                     <h5 className="card-title">Kobo</h5>
                     <p className="card-text">A financial management tool helping users track expenses, set budgets, and achieve their financial goals.</p>
                     <a href="https://kobo.peswa.finance" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">View Project</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card h-100 shadow-sm">
+                  <img src="/img/nature/myghqr.png" className="card-img-top" alt="Kobo" />
+                  <div className="card-body">
+                    <h5 className="card-title">Mygh QR</h5>
+                    <p className="card-text">GHQR is Ghana’s national Quick Response (QR) camera scan & pay service available on smartphone applications of all licensed commercial banks and financial technology providers</p>
+                    <a href="https://myghqr.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">View Project</a>
                   </div>
                 </div>
               </div>
