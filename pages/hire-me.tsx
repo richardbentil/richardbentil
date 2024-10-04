@@ -70,15 +70,6 @@ export default function HireMe() {
               <div className="col-md-6 col-lg-3">
                 <div className="card h-100 border-0 shadow-sm">
                   <div className="card-body text-center">
-                    <FaLock size={48} className="text-primary mb-3" />
-                    <h3 className="card-title h4">Security Audits</h3>
-                    <p className="card-text">Comprehensive security assessments to identify and address vulnerabilities in your applications.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 col-lg-3">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body text-center">
                     <FaRocket size={48} className="text-primary mb-3" />
                     <h3 className="card-title h4">Performance Optimization</h3>
                     <p className="card-text">Boost your {`website's`} speed and efficiency for better user experience and SEO rankings.</p>

@@ -43,7 +43,7 @@ export default function Home() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-4 text-center mb-4 mb-md-0">
-                <img src="/img/avatars/avatar.jpg" alt="Richard Bentil" className="rounded-circle img-fluid shadow" style={{width: '200px', height: '200px', objectFit: 'cover'}} />
+                <img src="/img/avatars/avatar.jpeg" alt="Richard Bentil" className="rounded-circle img-fluid shadow" style={{width: '200px', height: '200px', objectFit: 'cover'}} />
               </div>
               <div className="col-md-8">
                 <h1 className="display-4 fw-bold mb-3">Hello, {`I'm`} Richard Bentil</h1>
@@ -136,15 +136,6 @@ export default function Home() {
                     <IoMdPhonePortrait size={48} className="text-primary mb-3" />
                     <h3 className="card-title h4">Mobile Development</h3>
                     <p className="card-text">Proficient in developing cross-platform mobile applications using React Native and Flutter, ensuring a seamless user experience across devices.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body text-center">
-                    <IoMdLock size={48} className="text-primary mb-3" />
-                    <h3 className="card-title h4">Penetration Testing</h3>
-                    <p className="card-text">Skilled in identifying and addressing security vulnerabilities in web and mobile applications, ensuring robust protection against potential threats.</p>
                   </div>
                 </div>
               </div>
