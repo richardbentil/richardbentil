@@ -49,7 +49,7 @@ export default function HireMe() {
           <div className="container">
             <h2 className="text-center mb-5">Services I Offer</h2>
             <div className="row g-4">
-              <div className="col-md-6 col-lg-3">
+              <div className="col-md-6 col-lg-4">
                 <div className="card h-100 border-0 shadow-sm">
                   <div className="card-body text-center">
                     <FaCode size={48} className="text-primary mb-3" />
@@ -58,7 +58,7 @@ export default function HireMe() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-3">
+              <div className="col-md-6 col-lg-4">
                 <div className="card h-100 border-0 shadow-sm">
                   <div className="card-body text-center">
                     <FaMobile size={48} className="text-primary mb-3" />
@@ -67,7 +67,7 @@ export default function HireMe() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-3">
+              <div className="col-md-6 col-lg-4">
                 <div className="card h-100 border-0 shadow-sm">
                   <div className="card-body text-center">
                     <FaRocket size={48} className="text-primary mb-3" />

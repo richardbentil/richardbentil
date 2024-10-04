@@ -121,7 +121,7 @@ export default function Home() {
           <div className="container">
             <h2 className="text-center mb-5">Special Skills</h2>
             <div className="row g-4">
-              <div className="col-md-4">
+              <div className="col-md-6">
                 <div className="card h-100 border-0 shadow-sm">
                   <div className="card-body text-center">
                     <IoMdCode size={48} className="text-primary mb-3" />
@@ -130,7 +130,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-6">
                 <div className="card h-100 border-0 shadow-sm">
                   <div className="card-body text-center">
                     <IoMdPhonePortrait size={48} className="text-primary mb-3" />
