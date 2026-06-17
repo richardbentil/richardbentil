@@ -195,8 +195,8 @@ export default function Home() {
 
             <div className="flex-shrink-0 hero-portrait" style={{ width: 420, height: 560, borderRadius: 12, overflow: "hidden", border: `1px solid ${BORDER}` }}>
               <picture style={{ width: "100%", height: "100%", display: "block" }}>
-                <source media="(max-width: 480px)" srcSet="/img/portfolio-avatar 2.png" />
-                <source media="(max-width: 900px)" srcSet="/img/portfolio-avatar 1.png" />
+                <source media="(max-width: 480px)" srcSet="/img/portfolio-avatar-2.png" />
+                <source media="(max-width: 900px)" srcSet="/img/portfolio-avatar-1.png" />
                 <img src="/img/portfolio-avatar.png" alt="Richard Bentil" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} />
               </picture>
             </div>
