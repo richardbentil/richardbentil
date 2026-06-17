@@ -189,7 +189,7 @@ export default function Home() {
                 Software Engineer (Systems + Product Builder)
               </p>
               <p className="hero-desc" style={{ fontFamily: SANS, fontSize: 21, lineHeight: 1.5, color: GRAY, textShadow: "0 0 16px rgba(255,255,255,1), 0 0 32px rgba(255,255,255,0.8)" }}>
-                I build production systems that move money, run payroll, and hold up under real load — full-stack, frontend-heavy, with a bias toward correctness and clear failure handling.
+                I build production systems that move money, run payroll, and hold up under real load — full-stack, with a bias toward correctness and clear failure handling.
               </p>
             </div>
 
