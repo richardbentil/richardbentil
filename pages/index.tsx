@@ -193,15 +193,8 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="d-flex flex-column align-items-center justify-content-center flex-shrink-0 hero-portrait" style={{ width: 420, height: 560, background: "#efefef", border: `1px solid ${BORDER}`, borderRadius: 12, gap: 18, overflow: "hidden" }}>
-              <svg width="190" height="150" viewBox="0 0 190 150" fill="none">
-                <circle cx="95" cy="42" r="34" fill="#c8c8c8" />
-                <path d="M18 150 C18 104 172 104 172 150" fill="#c8c8c8" />
-              </svg>
-              <div className="d-flex flex-column align-items-center" style={{ gap: 4 }}>
-                <p style={{ fontFamily: MONO, fontSize: 12, color: GRAY }}>Professional photo</p>
-                <p style={{ fontFamily: MONO, fontSize: 10, color: GRAY_LIGHT }}>half-body · replace</p>
-              </div>
+            <div className="flex-shrink-0 hero-portrait" style={{ width: 420, height: 560, borderRadius: 12, overflow: "hidden", border: `1px solid ${BORDER}` }}>
+              <img src="/img/portfolio-avatar.png" alt="Richard Bentil" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} />
             </div>
           </div>
 
